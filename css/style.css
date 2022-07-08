@@ -1,12 +1,25 @@
 *, html, body{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
-.h2{
+.blue{
+    color: rgb(24, 1, 203);
+}
+.red{
+    color: red;
+}
+.yellow{
+    color: rgb(255, 145, 0);
+}
+h2{
     margin: 10px;
     text-align: center;
 }
-p{
+ul{
+    list-style-type: disc;
+    list-style-position: inside;
+}
+li{
     text-indent: 30px; 
 }
