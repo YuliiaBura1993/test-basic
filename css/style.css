@@ -1,7 +1,8 @@
 *, html, body{
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
+    background: rgb(149, 245, 242);
 }
 .blue{
     color: rgb(24, 1, 203);
@@ -22,4 +23,8 @@ ul{
 }
 li{
     text-indent: 30px; 
+    margin: 10px 20px;
+}
+.command{
+    font-weight: bold;
 }
