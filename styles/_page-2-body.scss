@@ -1,0 +1,280 @@
+.section_1-body{
+    padding: 20px 10px;
+    .section_1-body-container{
+        display: flex;
+        padding-bottom: 30px;
+        position: relative;
+        .cross-btn{
+            position: absolute;
+            left: -42px;
+            top: -7px;
+            font-size: 19px;
+            font-weight: bold;
+            color: $gray-8;
+            padding: 0px 5px;
+            // background-color: blue;
+        }
+        .cross-btn:hover{
+            color: rgb(128, 4, 4);
+            border-radius: 7px;
+            background-color: #e7e7f1;
+        }
+
+        .home-btn{
+            width: 21.5px;
+            height: 21.5px;
+        // background-image: url(../img/icons8-home-btn-24.png);
+        background-image: url(../img/small-gray-hose.jpg);
+        background-size: 16px 16px;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: -42px;
+        top: 13px;
+        // background-color: red;
+        }
+        .home-btn:hover{
+            // color: rgb(128, 4, 4);
+            border-radius: 7px;
+            background-color: #e7e7f1;
+            background-image: url(../img/icons8-home-24.png);
+        }
+
+        .home-img{
+            cursor: pointer;
+            margin: 0 10px 0 0;
+            width: 24px;
+            height: 24px;
+        }
+        .data-instead-home{
+            color: $gray-8;
+            font-weight: bold;
+        }
+
+
+        .location{
+            // width: 100px;
+            width: 120px;
+            b{
+                cursor: move;
+            }
+            .city{
+               small{
+                text-transform: uppercase;
+                font-size: 10px;
+                border-radius: 3px;
+                color: $gray-8;
+                padding: 1px 2px;
+                vertical-align: top;
+                text-shadow: 0 1px 0 #fff;
+                background: #f2f2f2;
+                border: 1px solid #eaeaea;
+                cursor: default;
+               }
+            }
+            .country{
+                cursor: move;
+                span{
+                    font-size: 12px;
+                    color: $gray-8;
+                }
+            }
+        }
+
+
+        .data{
+            cursor: move;
+            width: 154px;
+            // width: 182px;
+            // margin-left: 20px;
+            .time{
+                display: flex;
+                justify-content: flex-end;
+                span{
+                    font-weight: bold;
+                    font-size: 16px;
+                }
+                .gray-colon{
+                    display: none;
+                    color: #ccc;
+                }
+            }
+            .data-text{
+                display: flex;
+                justify-content: flex-end;
+                span{
+                    font-size: 12px;
+                    color: $gray-8;
+                }
+            }
+        }
+
+
+        .data-2{
+            display: flex;
+            cursor: move;
+            width: 154px;
+            // width: 182px;
+            // margin-left: 20px;
+            .time-interval{
+                span{
+                    font-weight: bold;
+                    font-size: 16px;
+                }
+                .gray-colon{
+                    display: none;
+                    color: #ccc;
+                }
+            }
+            .data-text{
+                display: flex;
+                justify-content: flex-end;
+                span{
+                    font-size: 12px;
+                    color: $gray-8;
+                }
+            }
+
+            .data-2-inner-left{
+                .time-interval{
+                    display: flex;
+                    justify-content: flex-end;
+                }
+            }
+            .data-2-inner-right{
+                .time-interval{
+                    display: flex;
+                    justify-content: flex-start;
+                }
+            }
+
+            .dash{
+                padding: 0 5px;
+            }
+        }
+
+
+        .hourline{
+            .hours-24{
+                display: flex;
+                // margin: 0 0 0 40px;
+                margin: 0 0 0 30px;
+                .tod_c{ 
+                    width: 28px;
+                    height: 36px;
+                    background: #8ba3c9;
+                    border-top-left-radius: 7px;
+                    border-bottom-left-radius: 7px;
+                    position: relative;
+                    span{
+                        text-transform: uppercase;
+                        font-size: 11px;
+                        color: $gray-8;
+                        margin: 0 0 0 2px;
+                        position: absolute;
+                        top: -14px;
+                    }
+                    b{
+                        text-transform: uppercase;
+                        font-size: 10px;
+                        color: $white;
+                        margin: 0 0 0 4px;
+                    }
+                    i{
+                        font-size: 13px;
+                        color: $white;
+                        margin: 0 0 0 -17px;
+                        position: absolute;
+                        top: 19px;
+                    }
+                }
+
+                .tod_n{
+                    width: 28px;
+                    height: 36px;
+                    background: #95b3d7;
+                    border-top: 1px solid #8ba3c9;
+                    border-bottom: 1px solid #8ba3c9;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    b{
+                        font-size: 18px;
+                        color: $white;
+                        font-weight: normal;
+                    }
+                }
+
+                .tod_m{
+                    width: 28px;
+                    height: 36px;
+                    background: #edfbff;
+                    border-top: 1px solid #8ba3c9;
+                    border-bottom: 1px solid #8ba3c9;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    b{
+                        font-size: 18px;
+                        color: #8ba3c9;
+                        font-weight: normal;
+                    }
+                }
+
+                .tod_d{
+                    width: 28px;
+                    height: 36px;
+                    background: #fffff3;
+                    border-top: 1px solid #8ba3c9;
+                    border-bottom: 1px solid #8ba3c9;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    b{
+                        font-size: 18px;
+                        color: #8ba3c9;
+                        font-weight: normal;
+                    }
+                }
+
+                .tod_boundary{
+                    border-top-right-radius: 7px;
+                    border-bottom-right-radius: 7px;
+                    height: 36px;
+                }
+            }
+        }
+
+        .arrow-hourline{
+            display: flex;
+            .button{
+                align-items: center;
+                display: flex;
+                justify-content: center;
+                padding: 5px 7px;
+                // margin-left: 12px;
+                margin-left: 2px;
+                border: none;
+                cursor: pointer;
+                background: transparent;
+            }
+            .button:hover{
+                background-color: #e7e7f1;
+                border-radius: 7px;
+                // box-shadow: 3px 3px 5px #afaaaa, -3px -3px 5px white;
+            }
+            .button__arrow{
+                background-color: transparent;
+                height: 9px;
+                width: 9px;
+                border-right: 3px solid #595B60;
+                border-top: 3px solid #595B60;
+                transform: translateX(-25%) rotate(45deg);
+            }
+        }
+       
+        .none{
+            display: none;
+        }
+    }
+}

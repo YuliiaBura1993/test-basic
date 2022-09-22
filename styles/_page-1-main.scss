@@ -11,7 +11,7 @@
 
 .section_1{
     // width: 1010px;
-    max-width: 1010px;
+    max-width: 1060px;
     margin: 0 auto;
     box-shadow: 3px 3px 5px #afaaaa, -3px -3px 5px white;
     margin-top: 50px;
@@ -38,7 +38,7 @@
                     display: flex;
                     justify-content: center;
                     padding: 7px;
-                    margin: 0 10px 0 10px;
+                    margin: 0 10px 0 0px;
                     border: none;
                     box-shadow: 3px 3px 5px #afaaaa, -3px -3px 5px white;
                     cursor: pointer;
@@ -268,8 +268,7 @@
             font-weight: bold;
             
         }
-        }
-       
+        } 
 
     }
 }
