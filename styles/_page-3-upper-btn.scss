@@ -1,0 +1,118 @@
+.section_1{
+    .upper-btn{
+        display: flex;
+        flex-wrap: wrap;
+        .first{
+            margin: 0 0 0 30px;
+        }
+        .loc-tab{
+            margin-bottom: 2px;
+            .loc-tab-open{
+                margin: 0 0 0 5px;
+                input{
+                    width: 110px;
+                    padding: 4px 3px 3px 27px;
+                    // text-align: center;
+                    border-top: 2px solid rgb(219, 212, 212);
+                    border-left: 2px solid rgb(219, 212, 212);
+                    border-right: 2px solid rgb(219, 212, 212);
+                    border-bottom: none;
+                    border-top-left-radius: 17px;
+                    border-top-right-radius: 17px;
+                    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+                                0 0  0 2px rgb(255,255,255),
+                                0.3em 0.3em 1em rgba(0,0,0,0.3);  
+                }
+                input::placeholder{
+                    color: $gray-8;
+                }
+            }
+            .loc-tab-open:hover{     
+                input{
+                    box-shadow: none;
+                    background: #e8e5e5;
+                }
+            }
+        }
+        .loc-new-tab{
+            margin-bottom: 2px;
+            .loc-tab-open{     
+                margin: 0 0 0 7px; 
+                input{
+                    width: 120px;
+                    padding: 4px 3px 3px 27px;
+                    // text-align: center; 
+                    border-top: 2px solid rgb(219, 212, 212);
+                    border-left: 2px solid rgb(219, 212, 212);
+                    border-right: 2px solid rgb(219, 212, 212);
+                    border-bottom: none;
+                    border-top-left-radius: 17px;
+                    border-top-right-radius: 17px;
+                    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+                                0 0  0 2px rgb(255,255,255),
+                                0.3em 0.3em 1em rgba(0,0,0,0.3);  
+                }
+                input::placeholder{
+                    color: $gray-8;
+                }
+
+            }
+            .loc-tab-open:hover{     
+                input{
+                    box-shadow: none;
+                    background: #e8e5e5;
+                }
+            }
+     
+        }
+
+        .loc-tab-active{
+            margin-bottom: 2px;
+            .loc-tab-open{     
+                margin: 0 0 0 7px; 
+                input{
+                    width: 120px;
+                    padding: 4px 3px 3px 27px;
+                    // text-align: center; 
+                    border-top: 2px solid rgb(219, 212, 212);
+                    border-left: 2px solid rgb(219, 212, 212);
+                    border-right: 2px solid rgb(219, 212, 212);
+                    border-bottom: none;
+                    border-top-left-radius: 17px;
+                    border-top-right-radius: 17px;
+                    box-shadow: none; 
+                    background: white;
+                }
+                input::placeholder{
+                    color: black;
+                }
+            }
+        }
+
+
+        .loc-tab-cross{
+            margin: 0 0 0 -28px;
+            color: #888;
+            font-weight: bold;
+            font-size: 16px;
+            padding: 5px;
+        }
+        .loc-tab-cross:hover{
+            color: rgb(128, 4, 4);
+        }
+
+        .add-new-tab{
+            .plus{
+                font-size: 22px;
+                font-weight: bold;
+                color: #c1c1c9;
+                padding: 0 7px;
+                margin-left: 10px;
+                cursor: pointer;
+            }
+            .plus:hover{
+                color: #95b3d7;
+            }
+        }
+    }
+}

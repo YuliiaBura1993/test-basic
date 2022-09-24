@@ -1,6 +1,14 @@
 .section_1-body{
     padding: 20px 10px;
     position: absolute;
+    border-bottom: 1px solid rgb(219, 212, 212);
+    border-left: 1px solid rgb(219, 212, 212);
+    border-right: 1px solid rgb(219, 212, 212);
+    // box-shadow: 3px 3px 5px #afaaaa, -3px 4px 5px #afaaaa;
+    box-shadow:
+    inset 0 -3em 3em rgba(0,0,0,0.1),
+          0 0  0 2px rgb(255,255,255),
+          0.3em 0.3em 1em rgba(0,0,0,0.3);
     .moving-border-pink-left{
         position: absolute;
         top: 19px;
@@ -416,6 +424,7 @@
                 }
             }
         }
+     
 
         .arrow-hourline{
             display: flex;

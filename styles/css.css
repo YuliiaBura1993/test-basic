@@ -6,6 +6,11 @@
   cursor: e-resize;
 }
 
+.big-border {
+  box-shadow: 3px 3px 5px #afaaaa, -3px -3px 5px white;
+  border: 1px solid rgb(219, 212, 212);
+}
+
 *, html, body {
   margin: 0;
   padding: 0;
@@ -19,9 +24,7 @@
 .section_1 {
   max-width: 1060px;
   margin: 0 auto;
-  box-shadow: 3px 3px 5px #afaaaa, -3px -3px 5px white;
-  margin-top: 50px;
-  border: 1px solid rgb(219, 212, 212);
+  margin-top: 80px;
   padding: 1px;
 }
 .section_1 .section_1-header {
@@ -30,6 +33,10 @@
   background: #e7e7f1;
   justify-content: space-between;
   padding: 10px 10px 0 10px;
+  border-top: 1px solid rgb(219, 212, 212);
+  border-left: 1px solid rgb(219, 212, 212);
+  border-right: 1px solid rgb(219, 212, 212);
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 }
 .section_1 .section_1-header .section_1-header--left {
   display: flex;
@@ -244,6 +251,10 @@
 .section_1-body {
   padding: 20px 10px;
   position: absolute;
+  border-bottom: 1px solid rgb(219, 212, 212);
+  border-left: 1px solid rgb(219, 212, 212);
+  border-right: 1px solid rgb(219, 212, 212);
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 }
 .section_1-body .moving-border-pink-left {
   position: absolute;
@@ -597,4 +608,102 @@
 }
 .section_1-body .section_1-body-container .none {
   display: none;
+}
+
+.section_1 .upper-btn {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section_1 .upper-btn .first {
+  margin: 0 0 0 30px;
+}
+.section_1 .upper-btn .loc-tab {
+  margin-bottom: 2px;
+}
+.section_1 .upper-btn .loc-tab .loc-tab-open {
+  margin: 0 0 0 5px;
+}
+.section_1 .upper-btn .loc-tab .loc-tab-open input {
+  width: 110px;
+  padding: 4px 3px 3px 27px;
+  border-top: 2px solid rgb(219, 212, 212);
+  border-left: 2px solid rgb(219, 212, 212);
+  border-right: 2px solid rgb(219, 212, 212);
+  border-bottom: none;
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+.section_1 .upper-btn .loc-tab .loc-tab-open input::placeholder {
+  color: #888;
+}
+.section_1 .upper-btn .loc-tab .loc-tab-open:hover input {
+  box-shadow: none;
+  background: #e8e5e5;
+}
+.section_1 .upper-btn .loc-new-tab {
+  margin-bottom: 2px;
+}
+.section_1 .upper-btn .loc-new-tab .loc-tab-open {
+  margin: 0 0 0 7px;
+}
+.section_1 .upper-btn .loc-new-tab .loc-tab-open input {
+  width: 120px;
+  padding: 4px 3px 3px 27px;
+  border-top: 2px solid rgb(219, 212, 212);
+  border-left: 2px solid rgb(219, 212, 212);
+  border-right: 2px solid rgb(219, 212, 212);
+  border-bottom: none;
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+.section_1 .upper-btn .loc-new-tab .loc-tab-open input::placeholder {
+  color: #888;
+}
+.section_1 .upper-btn .loc-new-tab .loc-tab-open:hover input {
+  box-shadow: none;
+  background: #e8e5e5;
+}
+.section_1 .upper-btn .loc-tab-active {
+  margin-bottom: 2px;
+}
+.section_1 .upper-btn .loc-tab-active .loc-tab-open {
+  margin: 0 0 0 7px;
+}
+.section_1 .upper-btn .loc-tab-active .loc-tab-open input {
+  width: 120px;
+  padding: 4px 3px 3px 27px;
+  border-top: 2px solid rgb(219, 212, 212);
+  border-left: 2px solid rgb(219, 212, 212);
+  border-right: 2px solid rgb(219, 212, 212);
+  border-bottom: none;
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+  box-shadow: none;
+  background: white;
+}
+.section_1 .upper-btn .loc-tab-active .loc-tab-open input::placeholder {
+  color: black;
+}
+.section_1 .upper-btn .loc-tab-cross {
+  margin: 0 0 0 -28px;
+  color: #888;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 5px;
+}
+.section_1 .upper-btn .loc-tab-cross:hover {
+  color: rgb(128, 4, 4);
+}
+.section_1 .upper-btn .add-new-tab .plus {
+  font-size: 22px;
+  font-weight: bold;
+  color: #c1c1c9;
+  padding: 0 7px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.section_1 .upper-btn .add-new-tab .plus:hover {
+  color: #95b3d7;
 }/*# sourceMappingURL=css.css.map */
