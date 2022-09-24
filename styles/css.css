@@ -2,6 +2,10 @@
   margin-left: 1px;
 }
 
+.e-resize {
+  cursor: e-resize;
+}
+
 *, html, body {
   margin: 0;
   padding: 0;
