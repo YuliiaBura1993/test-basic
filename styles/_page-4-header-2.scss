@@ -2,6 +2,7 @@
     .section_1-header-2{
         display: flex;
         align-items: center;
+        justify-content: space-between;
         background: #e7e7f1;
         // justify-content: space-between;
         padding: 10px;
@@ -27,11 +28,11 @@
                 height: 20px;
             }
             img{
-                width: 30px;
+                width: 28px;
             }
             span{
-                padding: 0 5px;
-                font-size: 15px;
+                padding: 0 10px;
+                font-size: 14px;
             }
         }
 
@@ -45,7 +46,6 @@
                 margin: 0px 2px;
                 // border: 1px solid rgb(97, 95, 95);
                 border-radius: 5px;
-          
             }
             a:hover{
                 box-shadow: 3px 3px 5px #afaaaa, -3px -3px 5px white;
@@ -115,6 +115,50 @@
             
 
         }
+
+        .right-side{
+            display: flex;
+            align-items: center;
+            .event{
+                color: black;
+                padding: 4px 5px;
+                font-size: 12px;
+                margin: 0px 2px;
+                // border: 1px solid rgb(97, 95, 95);
+                border-radius: 5px;
+            }
+            .event:hover{
+                box-shadow: 3px 3px 5px #afaaaa, -3px -3px 5px white;
+                // background-color: #e8e5e5;
+            }
+            .event:active{
+                box-shadow: -3px -3px 5px #afaaaa,
+                            3px 3px 5px white;
+            }
+            .event::before{
+                width: 20px;
+                height: 20px;
+                content: '';
+                // background-image: url(../img/event.png);
+                background-image: url(../img/event-color.png);
+                background-size: 100%;
+                display: inline-block;
+                vertical-align: middle; 
+                margin: 0 2px 0 0;
+            }
+            .section_2-link{
+                padding: 3px 0 3px 10px;
+                border-left: 1px solid gray;
+                .link{
+                    text-transform: uppercase;
+                    border-bottom: 1px dotted;
+                    color: #00e;
+                    font-size: 12px;
+                    font-weight: bold;
+                }
+            } 
+        }
+   
     
     }
 }
