@@ -626,20 +626,20 @@
 .section_1 .upper-btn .loc-tab .loc-tab-open input {
   width: 110px;
   padding: 4px 3px 3px 27px;
+  box-shadow: none;
+  background: #e8e5e5;
   border-top: 2px solid rgb(219, 212, 212);
   border-left: 2px solid rgb(219, 212, 212);
   border-right: 2px solid rgb(219, 212, 212);
   border-bottom: none;
-  border-top-left-radius: 17px;
-  border-top-right-radius: 17px;
-  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
 }
 .section_1 .upper-btn .loc-tab .loc-tab-open input::placeholder {
   color: #888;
 }
 .section_1 .upper-btn .loc-tab .loc-tab-open:hover input {
-  box-shadow: none;
-  background: #e8e5e5;
+  background: rgb(242, 241, 241);
 }
 .section_1 .upper-btn .loc-new-tab {
   margin-bottom: 2px;
@@ -650,13 +650,14 @@
 .section_1 .upper-btn .loc-new-tab .loc-tab-open input {
   width: 120px;
   padding: 4px 3px 3px 27px;
+  box-shadow: none;
+  background: #e8e5e5;
   border-top: 2px solid rgb(219, 212, 212);
   border-left: 2px solid rgb(219, 212, 212);
   border-right: 2px solid rgb(219, 212, 212);
   border-bottom: none;
-  border-top-left-radius: 17px;
-  border-top-right-radius: 17px;
-  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
 }
 .section_1 .upper-btn .loc-new-tab .loc-tab-open input::placeholder {
   color: #888;
@@ -664,6 +665,7 @@
 .section_1 .upper-btn .loc-new-tab .loc-tab-open:hover input {
   box-shadow: none;
   background: #e8e5e5;
+  background: rgb(242, 241, 241);
 }
 .section_1 .upper-btn .loc-tab-active {
   margin-bottom: 2px;
@@ -678,8 +680,8 @@
   border-left: 2px solid rgb(219, 212, 212);
   border-right: 2px solid rgb(219, 212, 212);
   border-bottom: none;
-  border-top-left-radius: 17px;
-  border-top-right-radius: 17px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
   box-shadow: none;
   background: white;
 }
