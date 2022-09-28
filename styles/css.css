@@ -251,6 +251,7 @@
 
 .section_1-body {
   padding: 20px 10px;
+  position: relative;
   border-bottom: 1px solid rgb(219, 212, 212);
   border-left: 1px solid rgb(219, 212, 212);
   border-right: 1px solid rgb(219, 212, 212);
@@ -713,7 +714,6 @@
 .section_1 .section_1-header-2 {
   display: flex;
   align-items: center;
-  display: none;
   justify-content: space-between;
   background: #e7e7f1;
   padding: 10px;
