@@ -340,10 +340,12 @@
         .hourline{
             .hours-24{
                 display: flex;
-                // margin: 0 0 0 40px;
                 margin: 0 0 0 30px;
+
+                display: grid;
+                grid-template-columns: repeat(24, 1fr);
                 .tod_c{ 
-                    width: 28px;
+                    // width: 28px;
                     height: 36px;
                     background: #8ba3c9;
                     border-top-left-radius: 7px;
@@ -462,3 +464,5 @@
         }
     }
 }
+
+@media screen and (max-width: 137px) {}

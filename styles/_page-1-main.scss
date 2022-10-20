@@ -6,9 +6,11 @@
     box-sizing: border-box;
     font-style: normal;
     font-family: Arial, Helvetica, sans-serif;
-    // background: #c2cde9;
+    // background: #c2cde9; 
 }
-
+.p{
+    padding: 0 40px;
+}
 
 .section_1{
     // width: 1010px;
@@ -19,7 +21,6 @@
     // border: 1px solid rgb(219, 212, 212);
     padding: 1px;
     margin-bottom: 30px;
-    
 
     .section_1-header{
         display: flex;

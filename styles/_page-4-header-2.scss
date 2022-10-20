@@ -1,26 +1,38 @@
 .section_1{
     .section_1-header-2{  
+        .header-2-flex{
+            display: flex;
+            // justify-content: flex-end;
+        }
         display: flex;
         align-items: center;
+        justify-content: space-between;
 
         // Я ЕГО УБРАЛА !!!!!
         // display: none;
 
 
-        justify-content: space-between;
+       
+
+        // display: grid;
+        // grid-template-columns: repeat(23, 1fr);
+        // column-gap: 30px;
         background: #e7e7f1;
         padding: 10px;
         border-top: 1px solid rgb(219, 212, 212);
         border-left: 1px solid rgb(219, 212, 212);
         border-right: 1px solid rgb(219, 212, 212);
         box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1), 0 0  0 2px rgb(255,255,255), 0.3em 0.3em 1em rgba(0,0,0,0.3);
-        width: 1058px;
+        max-width: 1058px;
         height: 50px;   
 
         .time-interval{
+            // grid-area: 1/4/2/8;
+
             display: flex;
             align-items: center;
-            margin: 0 30px 0 158px;
+            justify-content: flex-end;
+            margin: 0 30px 0 100px;
             .border{
                 border-left: 1px solid black;
                 height: 20px;
@@ -35,6 +47,7 @@
         }
 
         .btns{
+            // grid-area: 1/8/2/17;
             display: flex;
             align-items: center;
             a{
@@ -113,8 +126,11 @@
         }
 
         .right-side{
+            // grid-area: 1/18/2/-1;
+            // justify-self: end;
             display: flex;
             align-items: center;
+            // justify-items: end;
             .event{
                 color: black;
                 padding: 4px 5px;
