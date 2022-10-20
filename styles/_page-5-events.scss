@@ -11,9 +11,92 @@
             background: white;
         }
         .schedule{
-            padding: 100px 20px 10px 315px;
+            padding: 10px;
             z-index: 20;
             background: #eff3fb;
+            display: grid;
+            grid-template-columns: 1fr repeat(25, 28px);
+            grid-template-rows: repeat(4, 20px);
+            .schedule-data{
+                grid-area: 1/1/5/2;
+                font-size: 14px;
+                color: $gray-8;
+                text-align: end;
+                padding: 1px 44px 0 0;
+            }
+            .event{
+                font-size: 12px;
+                font-weight: bold;
+                color: $white;
+                border-radius: 3px;
+                text-align: center;
+                opacity: 0.5;
+                height: 18px;
+                align-self: center;
+            }
+            .event-1{
+                grid-area: 1/3/2/11;
+                background: $gray-8;
+                border: 1px solid #666;
+            }
+            .event-2{
+                grid-area: 2/5/3/14;
+                background: $gray-8;
+                border: 1px solid #666;
+            }
+            .event-3{
+                grid-area: 3/12/4/21;
+                background: #1482CC;
+                border: 1px solid #0452ac;
+            }
+            .event-4{
+                grid-area: 4/17/5/26;
+                background: #1482CC;
+                border: 1px solid #0452ac;
+            }
+            .grid-border {
+                border-right: 1px dotted #ccc;
+                border-left: 1px dotted #ccc;
+            }
+            .hover-separ1{
+                grid-area: 1/2/5/3;
+            }
+            .hover-separ2{
+                grid-area: 1/4/5/5;
+            }
+            .hover-separ3{
+                grid-area: 1/6/5/7;
+            }
+            .hover-separ4{
+                grid-area: 1/8/5/9;
+            }
+            .hover-separ5{
+                grid-area: 1/10/5/11;
+            }
+            .hover-separ6{
+                grid-area: 1/12/5/13;
+            }
+            .hover-separ7{
+                grid-area: 1/14/5/15;
+            }
+            .hover-separ8{
+                grid-area: 1/16/5/17;
+            }
+            .hover-separ9{
+                grid-area: 1/18/5/19;
+            }
+            .hover-separ10{
+                grid-area: 1/20/5/21;
+            }
+            .hover-separ11{
+                grid-area: 1/22/5/23;
+            }
+            .hover-separ12{
+                grid-area: 1/24/5/25;
+            }
+            .hover-separ13{
+                grid-area: 1/26/5/27;
+            }
         }
     }
 }
