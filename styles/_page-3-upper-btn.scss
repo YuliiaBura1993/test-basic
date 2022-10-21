@@ -2,16 +2,14 @@
     .upper-btn{
         display: flex;
         flex-wrap: wrap;
-        .first{
-            margin: 0 0 0 30px;
-        }
+        // margin: 0 0 0 50px;
         .loc-tab{
-            margin-bottom: 2px;
+            margin-bottom: 1px;
             .loc-tab-open{
-                margin: 0 0 0 5px;
+                // margin: 0 0 0 5px;
                 input{
                     width: 110px;
-                    padding: 4px 3px 3px 27px;
+                    padding: 4px 23px 3px 27px;
                     box-shadow: none;
                     background: #e8e5e5;
                     // text-align: center;
@@ -37,12 +35,12 @@
             }
         }
         .loc-new-tab{
-            margin-bottom: 2px;
+            margin-bottom: 1px;
             .loc-tab-open{     
-                margin: 0 0 0 7px; 
+                // margin: 0 0 0 7px; 
                 input{
                     width: 120px;
-                    padding: 4px 3px 3px 27px;
+                    padding: 4px 23px 3px 27px;
                     box-shadow: none;
                     background: #e8e5e5;
                     // text-align: center; 
@@ -72,12 +70,12 @@
         }
 
         .loc-tab-active{
-            margin-bottom: 2px;
+            margin-bottom: 1px;
             .loc-tab-open{     
-                margin: 0 0 0 7px; 
+                // margin: 0 0 0 7px; 
                 input{
                     width: 120px;
-                    padding: 4px 3px 3px 27px;
+                    padding: 4px 23px 3px 27px;
                     // text-align: center; 
                     border-top: 2px solid rgb(219, 212, 212);
                     border-left: 2px solid rgb(219, 212, 212);
