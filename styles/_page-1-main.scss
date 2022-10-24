@@ -6,20 +6,25 @@
     box-sizing: border-box;
     font-style: normal;
     font-family: Arial, Helvetica, sans-serif;
-    // background: #e8eaee; 
-    // background: #f5f3f1;
-}
+  
 
-.bg-color{
-    width: 100%;
-    height: 100%;
-    background-color: aliceblue;
-    background: #f5f3f1;
 }
+body{
+    background: #f5f3f1;
+    width: 1200px;
+    margin: 0 auto;
+    background: #f5f3f1 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAMAAABHPGVmAAAABlBMVEUAAADu7u6BVFV4AAAAAXRSTlMAQObYZgAAAD1JREFUaN7t0TEBAAAMgzDm3/Rs9MiBAVJ1mioPmIgJEzFhIiZMxERMmIgJEzFhIiZiwkRMmIgJEzERk8ke1xwJxQlKQNMAAAAASUVORK5CYII=);
+}
+// .bg-color{
+//     width: 100%;
+//     height: 100%;
+//     background-color: aliceblue;
+//     background: #f5f3f1;
+// }
 .p{
     // padding: 0 20px 0 40px;
-width: 1200px;
-margin: 0 auto;
+// width: 1200px;
+// margin: 0 auto;
 // background-color: aliceblue;
 }
 
